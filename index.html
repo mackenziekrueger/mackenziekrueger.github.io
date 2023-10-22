@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Your+Selected+Font" />
+</head>
+<body>
+    <nav class="sidebar">
+        <h2>Mackenzie Krueger</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="CharacterDesign.html">Character Design</a></li>
+            <li><a href="Animation.html">Animation</a></li>
+            <li><a href="Resume.html">Resume</a></li>
+            <li><a href="">Contact</a></li>
+                        <!-- Social Links -->
+                        <div class="social-links">
+                            <a class="social-link" href="https://www.instagram.com/zackdraws">
+                                <img src="insta.png" alt="Instagram">
+                            </a>
+                            <a class="social-link" href="https://twitter.com/zack_draws">
+                                <img src="twitter.png" alt="Instagram">
+                            <a class="social-link" href="htps://linkedin.com/in/zackisdrawing">
+                                <img src="linkedin.png" alt="Instagram">
+                            </a>
+                        </a>
+        </ul>
+    </nav>
+    
+    <div class="content">
+        <div class="video-container">
+
+            </video>
+            <h1>Character Design</h1>
+         <div class="gallery-frame">
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="cd1.jpg" alt="Character Design 3" data-src="cd1.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="cd2.jpg" alt="Character Design 4" data-src="cd2.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="cd3.jpg" alt="Character Design 1" data-src="cd3.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="cd4.jpg" alt="Character Design 6" data-src="cd4.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="cd5.jpg" alt="Character Design 7" data-src="cd5.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="cd6.jpg" alt="Character Design 5" data-src="cd6.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="cd7.jpg" alt="Character Design 2" data-src="cd7.jpg">
+                </div>    
+                <div class="gallery-item">
+                    <img src="cd8.jpg" alt="cd8" data-src="bg8.jpg">
+                </div>    
+                <div class="gallery-item">
+                    <img src="cd9.jpg" alt="cd9" data-src="bg8.jpg">
+                </div>    
+                <div class="gallery-item">
+                    <img src="cd10.jpg" alt="cd9" data-src="bg8.jpg">
+                </div>    
+               
+            </div>
+            <h1>Painting</h1>
+        </div>
+        <div class="gallery-frame">
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="bg1.jpg" alt="Background 1" data-src="bg1.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="bg2.jpg" alt="Background 2" data-src="bg2.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="bg3.jpg" alt="Background 3" data-src="bg3.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="bg4.jpg" alt="Background 4" data-src="bg4.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="bg5.jpg" alt="Background 5" data-src="bg5.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="bg6.jpg" alt="Background 1" data-src="bg6.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="bg7.jpg" alt="Background 2" data-src="bg7.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="bg10.jpg" alt="Background 5" data-src="bg10.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="bg13.jpg" alt="Background 8" data-src="bg13.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="bg11.jpg" alt="Background 6" data-src="bg11.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="bg12.jpg" alt="Background 7" data-src="bg12.jpg">
+                    
+                </div>    
+                <div class="gallery-item">
+                    <img src="bg8.jpg" alt="Background 3" data-src="bg8.jpg">
+                </div>    
+                <div class="gallery-item">
+                    <img src="bg14.jpg" alt="Background 3" data-src="bg14.jpg">
+                </div>    
+                <div class="gallery-item">
+                    <img src="bg15.jpg" alt="Background 3" data-src="bg15.jpg">
+                </div>    
+                <div class="gallery-item">
+                    <img src="bg16.jpg" alt="Background 3" data-src="b16.jpg">
+                </div>    
+                <div class="gallery-item">
+                    <img src="bg17.jpg" alt="Background 3" data-src="bg17.jpg">
+               
+                </div>    
+            </div>
+        </div>
+  
+    </div>
+    <div id="lightbox" class="hidden">
+        <span class="close-button" onclick="closeLightbox()">&times;</span>
+        <img id="lightbox-image" src="" alt="Lightbox Image">
+        <button class="prev-button">Previous</button>
+        <button class="next-button">Next</button>
+    </div>
+    <script src="lightbox.js"></script>
+    <script>
+        const toggleSidebar = document.getElementById("toggleSidebar");
+        const sidebar = document.querySelector(".sidebar");
+        const content = document.querySelector(".content");
+
+        toggleSidebar.addEventListener("click", () => {
+            sidebar.classList.toggle("closer");
+            content.classList.toggle("closer");
+        });
+    </script>
+</body>
+</html>
