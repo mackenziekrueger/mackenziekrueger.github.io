@@ -257,3 +257,12 @@ img.large {
     width: 30px; /* Set the width of the social media icon image */
     height: 30px; /* Set the height of the social media icon image */
 }
+{
+.video-container {
+   text-align: center;
+   margin-top:-170px;
+   margin-left:60px;
+   border: 190px sold #fff;
+   box-sizing:content-box;    
+}
+}
