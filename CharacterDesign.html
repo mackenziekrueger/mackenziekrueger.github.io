@@ -32,7 +32,7 @@
 <h1>Character Design</h1> <!-- Add a heading here -->
 <div class="gallery">
     <div class="gallery-item">
-        <img src="cd1.jpg" alt="Image 1" data-src="cd1.jpg">
+        <img src="cd11.jpg" alt="Image 1" data-src="cd11.jpg">
     </div>
     <div class="gallery-item">
         <img src="cd2.jpg" alt="Image 2" data-src="cd2.jpg">
@@ -50,7 +50,7 @@
         <img src="cd6.jpg" alt="Image 1" data-src="cd6.jpg">
     </div>
     <div class="gallery-item">
-        <img src="cd7.jpg" alt="Image 1" data-src="cd7.jpg">
+        <img src="cd1.jpg" alt="Image 1" data-src="cd1.jpg">
     </div> 
     <div class="gallery-item">
         <img src="cd8.jpg" alt="Image 1" data-src="cd8.jpg">
@@ -62,7 +62,7 @@
         <img src="cd10.jpg" alt="Image 1" data-src="cd10.jpg">
     </div>
     <div class="gallery-item">
-        <img src="cd11.jpg" alt="Image 1" data-src="cd11.jpg">
+        <img src="cd7.jpg" alt="Image 1" data-src="cd7.jpg">
     </div>
     <div class="gallery-item">
         <img src="cd12.png" alt="Image 1" data-src="cd12.png">
@@ -75,3 +75,21 @@
 
 
 
+        </div>
+        <div id="lightbox" class="hidden">
+            <span class="close-button" onclick="closeLightbox()">&times;</span>
+            <img id="lightbox-image" src="" alt="Lightbox Image">
+            <button class="next-button">Next</button>
+            <button class="prev-button">Previous</button>
+        </div>
+        <script src="lightbox.js"></script>
+        <script>
+            const toggleSidebar = document.getElementById("toggleSidebar");
+            const sidebar = document.querySelector(".sidebar");
+            const content = document.querySelector(".content");
+    
+            toggleSidebar.addEventListener("click", () => {
+                sidebar.classList.toggle("closer");
+                content.classList.toggle("closer");
+            });
+        </script>
