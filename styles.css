@@ -281,7 +281,6 @@ img.large {
     width: 30px; /* Set the width of the social media icon image */
     height: 30px; /* Set the height of the social media icon image */
 }
-{
 .video-container {
    text-align: center;
    margin-top:-170px;
@@ -289,4 +288,22 @@ img.large {
    border: 190px sold #fff;
    box-sizing:content-box;    
 }
+
+#floatingGif {
+    position: fixed;  
+    top: 1px;       
+    left: 140px;
+    width: 100px;
+    height: auto;
+        z-index: 9999;
+
+}
+#floatingGif2 {
+    position: fixed;  
+    top: 460px;       
+    left: 40px;
+    width: 100px;
+    height: auto;
+    z-index: 9999;
+
 }
